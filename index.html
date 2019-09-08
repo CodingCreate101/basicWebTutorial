@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <title>Ravi</title>
+  </head>
+  <body>
+    <div id="originContent">
+      <h1>Please fill this form</h1>
+      <form>
+        <label>First name:</label> <br />
+        <input type="text" id="firstName" /> <br /><br />
+
+        <label>Last name:</label> <br />
+        <input type="text" id="lastName" /> <br />
+        <br />
+
+        <label>Date of birth:</label> <br />
+        <input type="date" id="dob" /> <br />
+        <br />
+
+        <input type="button" value="Preview" onclick="getValues()" />
+      </form>
+    </div>
+
+    <div id="previewContent">
+      First name:
+      <div id="firstNamePre"></div>
+      <br />
+      Last name:
+      <div id="lastNamePrev"></div>
+      <br />
+      Date of birth:
+      <div id="dobPre"></div>
+      <br />
+    </div>
+  </body>
+</html>
